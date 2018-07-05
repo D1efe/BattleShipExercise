@@ -1,0 +1,36 @@
+unsorted notes:
+project battleships
+two player game
+two phases
+first phase place ships
+second phase select grid squares - hit ships
+game ends when one player loses all ships
+boats each: 2patrols, 2 battleships, 1submarine, 1 destroyer, 1 carrier
+many rules
+
+sorted notes: Project battleships
+Player class, playerHandler class for two players
+phases class? (ship placement and attacks) - ???
+An overal class to manage the handling of the game
+end conditions - all ships destroyed - can use a counter tracking ships remain
+
+Boats class (boats per player + their size):
+2 patrols(1x2), 2 battleships(1x3), 1 submarine(1x3), 1 destroyer(1x4), 
+1 carrier(1x5)i
+
+Boat handler class: manage multiple boats
+
+rules class - all return boolean values, checked for in game class:
+2 Ships cannot occupy the same space on the board.
+If a player scores a ‘hit’ on their opponent, then they get a another shot.
+Ships cannot be moved once they have been placed.
+
+
+
+
+grid class? : works with the ships
+size is 10x10
+ships placed on the grid
+return error is ships goes beyond boundary
+
+
